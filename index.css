@@ -1,0 +1,148 @@
+body{
+    width: 100%;
+    background-color: #490c9a;
+}
+
+/* Main content*/
+.content{
+    transform: translate(290px, 60px);
+    width: 80%;
+    height: 1000px;
+}
+
+.card{
+    background-color: #290b50;
+    color: white;
+    margin: 5px;
+}
+
+.card h2{
+    text-align: center;
+}
+
+.card small{
+    text-align: center;
+    font-style: italic;
+    opacity: 50%;
+}
+
+.card .btn-group{
+    margin: 0px 17px;
+}
+
+.card .comments{
+    background-color: #350b6b;
+    margin: 5px 17px;
+    padding: 5px;
+    border-radius: .3rem;
+}
+.card .comment{
+    background-color: #350b6b;
+    padding: 5px;
+    border-radius: .3rem;
+}
+
+.card .input-group{
+    width: auto;
+    margin: 5px 17px;
+}
+/* Main sidebar */
+.sidebar{
+    transform: translate(0, 50px);
+    position: fixed;
+    background-color: #290b50;
+    opacity: 95%;
+    color: white;
+    width: 17.5%;
+    height: 1000px;
+}
+
+.sidebars li{
+    list-style: none;
+    padding: 20px 15px;
+    border-radius: .3rem 0rem 0rem .3rem;
+    margin: 1px 0px;
+    font-weight: bold;
+}
+
+.sidebars a{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebars li:hover{
+    background-color: #290b40;
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+}
+.post{
+    width: 200px;
+    padding: 15px;
+    border-radius: .3rem;
+    margin: 10px 0px;
+    border: none;
+    color: #290b50;
+    font-weight: bold;
+}
+.post:hover{
+    background-color: #490c9a; color: white;
+}
+
+/* Dropdown */
+.dropbtn {
+    user-select:none;
+    background-color: #290b50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 265.5px;
+    transform: translate(0px, 155px);
+  }
+  
+  .dropup {
+    position: fixed;
+    display: inline-block;
+    border-radius: .3rem;
+  }
+
+  .dropup img{
+    float: left;
+  }
+  
+  .dropup-content {
+    transform: translate(150px, 0px);
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 120px;
+    box-shadow: 0 0 .1rem 0 rgba(0,0,0,0.2);
+    border-radius: .3rem;
+  }
+  
+  .dropup-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    list-style: none;
+    margin: 0px -16px;
+  }
+  .dropup-content li{
+    color: black;
+    text-decoration: none;
+    display: block;
+    list-style: none;
+    transform: translate(-16px, 0px);
+    border-radius: .3rem;
+  }
+  
+  .dropup-content a:hover {background-color: #490c9a; color: white;}
+  
+  .dropup:focus-within .dropup-content {display: block;}
+  
+  .dropup:hover .dropbtn {background-color: white;color: #290b50; }
